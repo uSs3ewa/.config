@@ -49,6 +49,8 @@ return {
 				"java-test",
 				"cpplint",
 				"checkstyle",
+				"black",
+				"isort",
 			},
 		})
 	end,

@@ -615,7 +615,9 @@ return {
 			[[ ⠀⠀⠀⠀⠀⠀⠙⠛⠛⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡴⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ]],
 			[[ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡴⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ]],
 			[[                                          ]],
-			[[Freedom today, Freedom tomorrow, Freedom forever]],
+			-- [[Freedom today, Freedom tomorrow, Freedom forever]],
+			[[ Sugar is sweet,                          ]],
+			[[                          And so are you. ]],
 		}
 		-- Set menu
 		dashboard.section.buttons.val = {
