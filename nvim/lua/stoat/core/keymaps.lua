@@ -45,10 +45,10 @@ keymap.set("n", "N", "Nzzzv")
 -- keymap.set("n", "<Left>", ":vertical resize +2<CR>", opts)
 
 -- Buffers
-keymap.set("n", "<Tab>", ":bnext<CR>", opts)
-keymap.set("n", "<S-Tab>", ":bprevious<CR>", opts)
-keymap.set("n", "<leader>x", ":Bdelete!<CR>", opts) -- close buffer
-keymap.set("n", "<leader>b", "<cmd> enew <CR>", opts) -- new buffer
+--keymap.set("n", "<Tab>", ":bnext<CR>", opts)
+--keymap.set("n", "<S-Tab>", ":bprevious<CR>", opts)
+--keymap.set("n", "<leader>x", ":Bdelete!<CR>", opts) -- close buffer
+--keymap.set("n", "<leader>b", "<cmd> enew <CR>", opts) -- new buffer
 
 -- Move text up and down
 keymap.set("v", "<A-k>", ":m .-2<CR>==", opts)
