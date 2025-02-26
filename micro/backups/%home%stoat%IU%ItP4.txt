@@ -1,0 +1,17 @@
+structs alignment
+padding
+
+unions - structures
+
+struct paddin:
+	32->36
+	cuz 33-35 padding, from the %4 can start
+
+	33chars+4i+4f=41 -> 44
+	diffrent addresses with diffrence in padding
+
+union:                                                                                        
+    biggest -> +padding                                                                                    
+	address - the same
+
+	

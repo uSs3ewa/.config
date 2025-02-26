@@ -1,0 +1,28 @@
+Statement & Expressions
+
+dont issue values
+1) Declaration
+2) Expression
+
+b+c - expression
+a=b+c - expression
+a=b+c; - expression statement, doesnt produce result/discarded
+// 'epression;'
+
+statements can go in any order
+
+'selection-statement'
+if (expr) stmnt
+if else
+switch
+'compile statements'
+
+iteration-statement:
+for, while, do-while
+
+jump-statements
+goto, break, continue, return
+continue - beggining of the loop
+
+Identifier abs, ptr
+'literals' 0x.., 1

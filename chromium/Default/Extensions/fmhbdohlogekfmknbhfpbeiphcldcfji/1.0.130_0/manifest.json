@@ -1,0 +1,39 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icon128.plasmo.3c1ed2d2.png",
+         "16": "icon16.plasmo.6c567d50.png",
+         "32": "icon32.plasmo.76b92899.png",
+         "48": "icon48.plasmo.aced7582.png",
+         "64": "icon64.plasmo.8bb5e6e0.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "author": "Red Shield VPN",
+   "background": {
+      "service_worker": "static/background/index.js"
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDescription__",
+   "externally_connectable": {
+      "matches": [ "\u003Call_urls>" ]
+   },
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "icon128.plasmo.3c1ed2d2.png",
+      "16": "icon16.plasmo.6c567d50.png",
+      "32": "icon32.plasmo.76b92899.png",
+      "48": "icon48.plasmo.aced7582.png",
+      "64": "icon64.plasmo.8bb5e6e0.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsuQelRb0diB5NXSaAYNmw58gYzQxJ0fj4OWpOGzlpIh7h/699R3QDXBWLPowfDh1rFsoO5LGbGEJ5Z70ycrFE211DPemLV1i21PPEiEm7uHN2Xh944+TusbSyXTdA7fyGgJAUQyiIJq6Zg5bkupK6CSZP5kwLVFb7AhY9aoylJpT3MzMw1MQqQXHV6y0Eaq1T2s2lkxcJKKWq0VKjah/ZAU1ujI4tV6+R2RJ/mh74xjjGuRaMfOFvi9xMQw+R2zEdVz6OXBkMV6PnHs+haIeEk9ew2vef5OlMOFrdI5xonysJVG/6Z8D8WDGDihn/f+UYh21SgpWHk9uR5boHQYWmwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_appName__",
+   "permissions": [ "storage", "unlimitedStorage", "proxy", "tabs", "webRequest", "webRequestAuthProvider", "privacy" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.130",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "rsvcontent.js", "assets/locations/*.*", "assets/icons/*.*" ]
+   } ]
+}

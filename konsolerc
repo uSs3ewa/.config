@@ -1,0 +1,12 @@
+[General]
+ConfigVersion=1
+
+[MainWindow]
+MenuBar=Enabled
+ToolBarsMovable=Disabled
+
+[SaveHistory Settings]
+Recent URLs[$e]=file:$HOME/IU
+
+[UiSettings]
+ColorScheme=

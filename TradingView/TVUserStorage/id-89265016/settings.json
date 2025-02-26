@@ -1,0 +1,115 @@
+{
+  "globals": {
+    "undo": [
+      {
+        "command": "tab-closed",
+        "data": {
+          "windowPid": "9ac0fe9f-5149-4f86-b9c2-63a870384526",
+          "position": 1,
+          "active": true,
+          "title": "TradingView",
+          "pinned": false,
+          "url": "https://www.tradingview.com/support/"
+        }
+      },
+      {
+        "command": "tab-closed",
+        "data": {
+          "windowPid": "9ac0fe9f-5149-4f86-b9c2-63a870384526",
+          "position": 1,
+          "active": false,
+          "title": "New Tab",
+          "pinned": false,
+          "url": "tvd://new-tab"
+        }
+      }
+    ]
+  },
+  "app": {
+    "chartWindows": [
+      {
+        "persistentId": "9ac0fe9f-5149-4f86-b9c2-63a870384526",
+        "options": {
+          "tabViewDefaultUrl": "https://www.tradingview.com/chart/",
+          "windowOptions": {
+            "width": 1592,
+            "height": 953,
+            "minWidth": 500,
+            "minHeight": 350,
+            "x": 4,
+            "y": 43,
+            "state": 0,
+            "show": true
+          },
+          "titleBarOptions": {
+            "showMainMenu": true,
+            "showTabs": true,
+            "showMaximize": true,
+            "showMinimize": true
+          }
+        },
+        "tabs": [
+          {
+            "persistentId": "442dfb0f-fef7-45ad-baa9-7d3387421cff",
+            "active": false,
+            "pinned": false,
+            "title": "ETHUSDT",
+            "url": "https://www.tradingview.com/chart/5lF6EbOd/",
+            "isFullscreen": false,
+            "isTitleCustom": false,
+            "symbol": {
+              "layoutType": "s",
+              "charts": [
+                {
+                  "active": true,
+                  "interval": "15",
+                  "symbol": "BINANCE:ETHUSDT"
+                }
+              ]
+            }
+          },
+          {
+            "persistentId": "8ee33b4f-4e07-4b92-b8f3-ea1820ce411f",
+            "active": false,
+            "pinned": false,
+            "title": "ETHUSDT",
+            "url": "https://www.tradingview.com/chart/5lF6EbOd/",
+            "isFullscreen": false,
+            "isTitleCustom": false
+          },
+          {
+            "persistentId": "6c5d837f-96ae-4338-8c76-6dd6a3f33ba5",
+            "active": true,
+            "pinned": false,
+            "title": "ETHUSDT",
+            "url": "https://www.tradingview.com/chart/5lF6EbOd/",
+            "isFullscreen": false,
+            "isTitleCustom": false
+          }
+        ]
+      }
+    ],
+    "state": {
+      "focusedWindowId": "9ac0fe9f-5149-4f86-b9c2-63a870384526"
+    }
+  },
+  "linking": {
+    "groups": []
+  },
+  "featureList": {
+    "tvd_app_quit_win32": {
+      "value": false,
+      "isChecked": false
+    },
+    "tvd_delete_layout": {
+      "value": false,
+      "isChecked": false
+    }
+  },
+  "new-tab": {
+    "layoutSort": {
+      "sortField": "title",
+      "sortDirection": 1
+    }
+  }
+}

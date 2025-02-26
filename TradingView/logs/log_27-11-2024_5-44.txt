@@ -1,0 +1,509 @@
+2024-11-27 05:44:44.128   [DBG] Check config path: '/home/stoat/Documents/TradingView/configs/config.json'
+2024-11-27 05:44:44.130   [DBG] Check config path: '/nix/store/vrbz5i134m2761bsfkwb3hrfklza4bd6-tradingview-2.7.2/share/tradingview/resources/app.asar/configs/config.json'
+2024-11-27 05:44:44.130   [INF] Use config path: '/nix/store/vrbz5i134m2761bsfkwb3hrfklza4bd6-tradingview-2.7.2/share/tradingview/resources/app.asar/configs/config.json'
+2024-11-27 05:44:44.131   [DBG] Configuration.updateConfigFromEnvironment(): "TVD_DEBUGMODE: false"
+2024-11-27 05:44:44.131   [DBG] Configuration.updateConfigFromEnvironment(): "TVD_LOG_VIEW_ENABLED: false"
+2024-11-27 05:44:44.364   [DBG] Initializing UserService
+2024-11-27 05:44:44.365   [INF] Initializing AppEventsService
+2024-11-27 05:44:44.365   [DBG] Initializing AuthenticationHandler
+2024-11-27 05:44:44.368   [DBG] Logger initialized
+2024-11-27 05:44:44.369   [DBG] Initializing MainService
+2024-11-27 05:44:44.369   [DBG] MainService.subscribeAppEvents()
+2024-11-27 05:44:44.373   [DBG] Initializing LocaleService
+2024-11-27 05:44:44.374   [INF] Main service created. appPath: '/nix/store/vrbz5i134m2761bsfkwb3hrfklza4bd6-tradingview-2.7.2/share/tradingview/resources/app.asar', documentsPath: '/home/stoat/Documents/TradingView' 
+2024-11-27 05:44:44.375   [DBG] Initializing PersistenceService
+2024-11-27 05:44:44.375   [DBG] MainMenuService.buildAppMenu()
+2024-11-27 05:44:44.381   [DBG] Initializing WindowService
+2024-11-27 05:44:44.384   [DBG] MainMenuService.makeThemesMenu()
+2024-11-27 05:44:44.384   [DBG] Initializing ThemeManager service
+2024-11-27 05:44:44.385   [DBG] mn.setPlatformTheme()
+2024-11-27 05:44:44.406   [DBG] WindowService.getChartWindows()
+2024-11-27 05:44:44.408   [DBG] MainMenuService.buildAppMenu()
+2024-11-27 05:44:44.410   [DBG] MainMenuService.makeThemesMenu()
+2024-11-27 05:44:44.410   [DBG] MainMenuService.buildAppMenu()
+2024-11-27 05:44:44.411   [DBG] MainMenuService.makeThemesMenu()
+2024-11-27 05:44:44.411   [DBG] MainMenuService.buildAppMenu()
+2024-11-27 05:44:44.412   [DBG] MainMenuService.makeThemesMenu()
+2024-11-27 05:44:44.437   [DBG] Initializing SettingsProvider
+2024-11-27 05:44:44.437   [DBG] PasswordManagerService.getShouldSaveCredentials()
+2024-11-27 05:44:44.438   [DBG] PasswordManagerService.setShouldSaveCredentials()
+2024-11-27 05:44:44.438   [DBG] AppEventsService.doStartup()
+2024-11-27 05:44:44.438   [DBG] AppEventsService.checkFirstRun()
+2024-11-27 05:44:44.439   [DBG] Initializing TrackEventService
+2024-11-27 05:44:44.439   [DBG] TrackEventService.setFirstRunEvent()
+2024-11-27 05:44:44.439   [DBG] TrackEventService.updateAppTrackingStatus()
+2024-11-27 05:44:44.440   [DBG] mn.availableThemes()
+2024-11-27 05:44:44.440   [DBG] mn.availableThemes()
+2024-11-27 05:44:44.441   [DBG] mn.availableThemes()
+2024-11-27 05:44:44.441   [DBG] mn.availableThemes()
+2024-11-27 05:44:44.551   [DBG] AppEventsService.initSession()
+2024-11-27 05:44:44.552   [DBG] mn.setPlatformTheme()
+2024-11-27 05:44:44.552   [DBG] UserService.Startup()
+2024-11-27 05:44:44.553   [DBG] [5:44:44]: 'Startup ' (185) ms
+2024-11-27 05:44:44.553   [INF] App version: 2.7.2
+2024-11-27 05:44:44.553   [INF] Show Splash Window
+2024-11-27 05:44:44.583   [DBG] MainService.registerOsTasks()
+2024-11-27 05:44:44.583   [DBG] MainMenuService.buildAppMenu()
+2024-11-27 05:44:44.585   [DBG] MainMenuService.makeThemesMenu()
+2024-11-27 05:44:44.585   [DBG] TrackEventService().Startup()
+2024-11-27 05:44:44.585   [DBG] AppEventsService.getCid()
+2024-11-27 05:44:44.585   [DBG] MainService.getVersionInfo()
+2024-11-27 05:44:44.587   [DBG] mn.availableThemes()
+2024-11-27 05:44:44.588   [DBG] PermissionsHandler.initialize()
+2024-11-27 05:44:44.599   [DBG] UserService.notifyUserSignedOut()
+2024-11-27 05:44:44.599   [INF] Attempt to change lang (en)
+2024-11-27 05:44:44.602   [DBG] WindowService.startAnonymousSession()
+2024-11-27 05:44:44.602   [DBG] MainMenuService.buildAppMenu()
+2024-11-27 05:44:44.603   [DBG] MainMenuService.makeThemesMenu()
+2024-11-27 05:44:44.604   [DBG] TrackEventService.setUserData()
+2024-11-27 05:44:44.604   [DBG] TrackEventService.setAppWindowsData()
+2024-11-27 05:44:44.604   [DBG] TrackEventService.trackStartApp()
+2024-11-27 05:44:44.604   [INF] [TrackEventService.trackStartApp()]: GA not allowed
+2024-11-27 05:44:44.605   [DBG] mn.availableThemes()
+2024-11-27 05:44:44.952   [DBG] AppEventsService.focusWebContent()
+2024-11-27 05:44:44.991   [DBG] MainService.getVersionInfo()
+2024-11-27 05:44:45.231   [DBG] MainMenuService.buildAppMenu()
+2024-11-27 05:44:45.234   [DBG] MainMenuService.makeThemesMenu()
+2024-11-27 05:44:45.235   [DBG] mn.availableThemes()
+2024-11-27 05:44:45.236   [DBG] WindowService.disposeWindows()
+2024-11-27 05:44:45.236   [DBG] WindowService.spawnDefaultWindow()
+2024-11-27 05:44:45.237   [DBG] Will create empty window
+2024-11-27 05:44:45.256   [DBG] BaseWindow.addDisposable()
+2024-11-27 05:44:45.256   [DBG] BaseWindow.applyWindowTheme()
+2024-11-27 05:44:45.256   [DBG] mn.applyTheme()
+2024-11-27 05:44:45.256   [DBG] BaseWindow.addDisposable()
+2024-11-27 05:44:45.256   [INF] Created base window, tweaking current window
+2024-11-27 05:44:45.257   [DBG] [57597c05] BaseWindow.addDisposable()
+2024-11-27 05:44:45.257   [DBG] [57597c05] BaseWindow.addDisposable()
+2024-11-27 05:44:45.315   [DBG] [57597c05] TabbedWindowBase.addTab()
+2024-11-27 05:44:45.316   [DBG] [57597c05] BaseWindow.load()
+2024-11-27 05:44:45.338   [DBG] [57597c05] BaseWindow.createAppAwaiter()
+2024-11-27 05:44:45.881   [DBG] [5:44:45]-[5:44:45]: 'BaseWindow: loading window page, url: '/app/window/index.html'' (562) ms
+2024-11-27 05:44:45.883   [DBG] mn.applyTheme()
+2024-11-27 05:44:45.922   [DBG] [57597c05] TabbedWindowBase.getWindowStateAsync()
+2024-11-27 05:44:45.948   [DBG] [Renderer] initializeIpcProxyForInstance windowControl id: 57597c05-tvd:tabbed-window-control; Old id undefined
+2024-11-27 05:44:45.952   [DBG] App.componentDidMount()
+2024-11-27 05:44:45.954   [DBG] App.tokyoNightInitialize()
+2024-11-27 05:44:45.955   [DBG] App.setParentId()
+2024-11-27 05:44:45.955   [DBG] [Renderer] initializeIpcProxyForInstance windowControl id: 57597c05-tvd:tabbed-window-control; Old id undefined
+2024-11-27 05:44:45.958   [DBG] App.setParentId(): "Registered window id: l"
+2024-11-27 05:44:45.959   [DBG] <App>.componentDidMount(): "Will update window state: 3"
+2024-11-27 05:44:45.968   [INF] Window finished load id: '57597c05'
+2024-11-27 05:44:45.970   [DBG] [57597c05] TabbedWindowBase.notifyTabsChanged()
+2024-11-27 05:44:45.970   [DBG] [57597c05] TabbedWindowBase.updateTabsContainer()
+2024-11-27 05:44:45.970   [DBG] [57597c05] BaseWindow.show()
+2024-11-27 05:44:45.973   [INF] Window page loaded, url: '/app/window/index.html'
+2024-11-27 05:44:45.982   [DBG] TabbedWindowBase.findTabById(tabId: 65cff3f0)
+2024-11-27 05:44:45.982   [DBG] TabbedWindowBase.findTabById(tabId: 65cff3f0)
+2024-11-27 05:44:45.984   [DBG] [65cff3f0] Tab.setupViewEvents()
+2024-11-27 05:44:45.984   [INF] Create tab url: 'https://www.tradingview.com/chart/', id: '65cff3f0'
+2024-11-27 05:44:45.985   [DBG] [65cff3f0] TvTab.setupTvViewEvents()
+2024-11-27 05:44:45.985   [DBG] [57597c05] TabbedWindowBase.setActiveTab()
+2024-11-27 05:44:45.985   [DBG] [57597c05] TabbedWindowBase.notifyTabsChanged()
+2024-11-27 05:44:45.985   [DBG] [57597c05] TabbedWindowBase.updateTabsContainer()
+2024-11-27 05:44:45.985   [DBG] [57597c05] TabbedWindowBase.setWindowLoading()
+2024-11-27 05:44:45.985   [DBG] [57597c05] TabbedWindowBase.setActiveTabView()
+2024-11-27 05:44:45.986   [DBG] [57597c05] TabbedWindowBase.setWindowLoading()
+2024-11-27 05:44:45.986   [DBG] [57597c05] TabbedWindowBase.handleTabLoading()
+2024-11-27 05:44:45.987   [DBG] [57597c05] TabbedWindowBase.setWindowLoading()
+2024-11-27 05:44:45.987   [DBG] [57597c05] TabbedWindowBase.setWindowLoading()
+2024-11-27 05:44:45.987   [DBG] [57597c05] TabbedWindowBase.notifyTabsChanged()
+2024-11-27 05:44:45.987   [DBG] [57597c05] TabbedWindowBase.updateTabsContainer()
+2024-11-27 05:44:45.988   [DBG] [65cff3f0] Tab.load()
+2024-11-27 05:44:45.988   [DBG] TaskQueueImpl.startTask()
+2024-11-27 05:44:45.988   [DBG] [57597c05] TabbedWindowBase.setWindowLoading()
+2024-11-27 05:44:45.989   [DBG] WindowService.prerenderView()
+2024-11-27 05:44:46.29    [DBG] [65cff3f0] Tab.setViewData()
+2024-11-27 05:44:46.29    [DBG] Tab id: 65cff3f0, loading url: https://www.tradingview.com/chart/
+2024-11-27 05:44:46.32    [DBG] Check config path: '/home/stoat/Documents/TradingView/configs/nav-rules.json'
+2024-11-27 05:44:46.32    [DBG] Check config path: '/nix/store/vrbz5i134m2761bsfkwb3hrfklza4bd6-tradingview-2.7.2/share/tradingview/resources/app.asar/configs/nav-rules.json'
+2024-11-27 05:44:46.32    [INF] Use config path: '/nix/store/vrbz5i134m2761bsfkwb3hrfklza4bd6-tradingview-2.7.2/share/tradingview/resources/app.asar/configs/nav-rules.json'
+2024-11-27 05:44:46.39    [DBG] TabPanel.render(): "Tabs panel registered"
+2024-11-27 05:44:46.40    [DBG] <App>.componentDidMount(): "App sends ready event"
+2024-11-27 05:44:46.52    [DBG] Initializing TabDragHandler
+2024-11-27 05:44:46.53    [DBG] r.createRendererWorkerWindow()
+2024-11-27 05:44:46.69    [DBG] BaseWindow.addDisposable()
+2024-11-27 05:44:46.69    [DBG] BaseWindow.applyWindowTheme()
+2024-11-27 05:44:46.69    [DBG] mn.applyTheme()
+2024-11-27 05:44:46.69    [DBG] BaseWindow.addDisposable()
+2024-11-27 05:44:46.69    [DBG] BaseWindow.load()
+2024-11-27 05:44:46.94    [DBG] BaseWindow.createAppAwaiter()
+2024-11-27 05:44:46.96    [DBG] BaseWindow.createAppAwaiter()
+2024-11-27 05:44:46.103   [DBG] [57597c05] TabbedWindowBase.registerTabPanel()
+2024-11-27 05:44:46.121   [DBG] [591dd7df] TabPanel.updateTabs()
+2024-11-27 05:44:46.125   [DBG] [591dd7df] TabPanel.updateTabs()
+2024-11-27 05:44:46.126   [DBG] [591dd7df] TabPanel.updateTabs()
+2024-11-27 05:44:46.127   [DBG] App.initialize()
+2024-11-27 05:44:46.127   [DBG] App.subscribeOnWindowEvents()
+2024-11-27 05:44:46.131   [DBG] [57597c05] TabbedWindowBase.registerTabController()
+2024-11-27 05:44:46.132   [INF] TabbedWindowBase.registerTabController(tabId: 65cff3f0-1b8a-4ad5-bf81-cdff8c3aa692, from window id: 5f65ceb4-tvd:tab)
+2024-11-27 05:44:46.132   [DBG] [5f65ceb4] Tab.setController()
+2024-11-27 05:44:46.133   [DBG] AppEventsService.focusWebContent()
+2024-11-27 05:44:46.166   [DBG] AppEventsService.focusWebContent()
+2024-11-27 05:44:46.170   [DBG] TabComponent.componentDidMount(): "registered controller for tab 5f65ceb4"
+2024-11-27 05:44:46.315   [DBG] Tab id: 65cff3f0 did-navigate (https://www.tradingview.com/chart/)
+2024-11-27 05:44:46.392   [DBG] Tab id: 65cff3f0 page-title-updated
+2024-11-27 05:44:46.550   [DBG] Drag service window finished load
+2024-11-27 05:44:46.558   [DBG] [5:44:46]-[5:44:46]: 'BaseWindow: loading window page, url: '/app/renderer-services/drag-service/index.html'' (489) ms
+2024-11-27 05:44:46.558   [INF] Window page loaded, url: '/app/renderer-services/drag-service/index.html'
+2024-11-27 05:44:46.559   [INF] Creating drag service
+2024-11-27 05:44:46.559   [DBG] Native: capture pointer
+2024-11-27 05:44:46.562   [DBG] NativeDragService.registerDroppable()
+2024-11-27 05:44:46.562   [DBG] NativeDragService.registerDraggable()
+2024-11-27 05:44:46.562   [DBG] WindowService.findWindowAsync()
+2024-11-27 05:44:46.563   [DBG] WindowService.findWindowAsync()
+2024-11-27 05:44:46.564   [DBG] TabPanel.componentDidMount(): "Registered droppable with id: 591dd7df"
+2024-11-27 05:44:46.564   [DBG] TabComponent.componentDidMount(): "registered draggable with id 5f65ceb4"
+2024-11-27 05:44:47.471   [DBG] Tab id: 65cff3f0 dom-ready
+2024-11-27 05:44:47.471   [DBG] WindowService.zoom()
+2024-11-27 05:44:47.471   [DBG] ZoomController.setZoomValue()
+2024-11-27 05:44:47.472   [DBG] WindowService.getChartWindows()
+2024-11-27 05:44:48.09    [DBG] [57597c05] TabbedWindowBase.findTabByWebContents()
+2024-11-27 05:44:48.469   [DBG] TrackEventService.updateAppTrackingStatus()
+2024-11-27 05:44:48.470   [DBG] TrackEventService.trackStartApp()
+2024-11-27 05:44:48.470   [INF] [TrackEventService.trackStartApp()]: GA not allowed
+2024-11-27 05:44:48.470   [DBG] TrackEventService.updateAppTrackingStatus()
+2024-11-27 05:44:48.470   [DBG] TrackEventService.trackStartApp()
+2024-11-27 05:44:48.472   [DBG] TrackEventService.updateAppTrackingStatus()
+2024-11-27 05:44:48.472   [DBG] TrackEventService.trackStartApp()
+2024-11-27 05:44:48.472   [DBG] TrackEventService.updateAppTrackingStatus()
+2024-11-27 05:44:48.472   [DBG] TrackEventService.trackStartApp()
+2024-11-27 05:44:48.648   [DBG] AppEventsService.focusWebContent()
+2024-11-27 05:44:49.36    [DBG] [57597c05] TabbedWindowBase.notifyInputEvent()
+2024-11-27 05:44:49.36    [DBG] [57597c05] TabbedWindowBase.notifyInputEventFilterForRuLang()
+2024-11-27 05:44:49.522   [DBG] [57597c05] TabbedWindowBase.setWindowLoading()
+2024-11-27 05:44:49.522   [DBG] [57597c05] TabbedWindowBase.setActiveTabView()
+2024-11-27 05:44:49.523   [DBG] [57597c05] TabbedWindowBase.setWindowLoading()
+2024-11-27 05:44:49.524   [DBG] [57597c05] TabbedWindowBase.setWindowLoading()
+2024-11-27 05:44:49.525   [DBG] PersistenceService.checkUserStorageExistence()
+2024-11-27 05:44:49.525   [DBG] UserService.doSignIn()
+2024-11-27 05:44:49.525   [DBG] AuthenticationHandler.resetState()
+2024-11-27 05:44:49.525   [DBG] AuthenticationHandler.showWelcomeDialog()
+2024-11-27 05:44:49.525   [DBG] R.createDialogWindow()
+2024-11-27 05:44:49.528   [DBG] BaseWindow.addDisposable()
+2024-11-27 05:44:49.528   [DBG] BaseWindow.applyWindowTheme()
+2024-11-27 05:44:49.528   [DBG] mn.applyTheme()
+2024-11-27 05:44:49.528   [DBG] BaseWindow.addDisposable()
+2024-11-27 05:44:49.529   [DBG] Dialog registered 7f031c16
+2024-11-27 05:44:49.529   [DBG] [7f031c16] BaseWindow.load()
+2024-11-27 05:44:49.538   [DBG] [7f031c16] BaseWindow.createAppAwaiter()
+2024-11-27 05:44:49.538   [DBG] s.notifyListeners()
+2024-11-27 05:44:49.539   [DBG] PasswordManagerService.getShouldSaveCredentials()
+2024-11-27 05:44:49.539   [DBG] PasswordManagerService.setShouldSaveCredentials()
+2024-11-27 05:44:49.539   [INF] Hide Splash Window
+2024-11-27 05:44:49.539   [DBG] AppEventsService.openForwardedUrl()
+2024-11-27 05:44:49.685   [DBG] Platform requested get-theme
+2024-11-27 05:44:49.747   [DBG] [5:44:49]-[5:44:49]: 'BaseWindow: loading window page, url: '/app/dialog-window/index.html'' (218) ms
+2024-11-27 05:44:49.754   [INF] Window page loaded, url: '/app/dialog-window/index.html'
+2024-11-27 05:44:49.756   [DBG] [7f031c16] BaseWindow.show()
+2024-11-27 05:44:49.760   [DBG] [7f031c16] BaseWindow.moveTop()
+2024-11-27 05:44:49.760   [INF] [DialogWindow]: dialog without title showed
+2024-11-27 05:44:49.760   [DBG] [7f031c16] BaseWindow.show()
+2024-11-27 05:44:49.760   [DBG] [7f031c16] DialogWindow.waitInput()
+2024-11-27 05:44:50.185   [DBG] AppEventsService.focusWebContent()
+2024-11-27 05:44:50.185   [DBG] AuthenticationHandler.tryObtainTokenFromClipboard()
+2024-11-27 05:44:52.122   [DBG] AuthenticationHandler.signInWithBrowser()
+2024-11-27 05:44:52.123   [DBG] AuthenticationHandler.createAuthenticationUrl()
+2024-11-27 05:44:52.124   [DBG] AuthenticationHandler.setWatchers()
+2024-11-27 05:44:52.124   [DBG] AuthenticationHandler.waitBrowserToken()
+2024-11-27 05:44:52.124   [DBG] AuthenticationHandler.isAuthenticationCompleted()
+2024-11-27 05:44:52.124   [DBG] AuthenticationHandler.wait2FA()
+2024-11-27 05:44:52.124   [DBG] AuthenticationHandler.isAuthenticationCompleted()
+2024-11-27 05:45:01.637   [DBG] DialogWindow.keyDownHandler()
+2024-11-27 05:45:25.234   [DBG] AppEventsService.focusWebContent()
+2024-11-27 05:45:25.234   [DBG] AuthenticationHandler.tryObtainTokenFromClipboard()
+2024-11-27 05:45:25.239   [DBG] AuthenticationHandler.acceptRedirectUrl()
+2024-11-27 05:45:25.239   [DBG] AuthenticationHandler.getTokenFromRedirectUrl()
+2024-11-27 05:45:25.240   [ERR] [AuthenticationHandler.getTokenFromRedirectUrl()] Invalid redirect url     tradingview
+
+2024-11-27 05:45:29.596   [DBG] AuthenticationHandler.cancelSignIn()
+2024-11-27 05:45:29.596   [DBG] AuthenticationHandler.resetState()
+2024-11-27 05:45:29.596   [DBG] AuthenticationHandler.isAuthenticationCompleted()
+2024-11-27 05:45:29.596   [DBG] AuthenticationHandler.completeAuthentication()
+2024-11-27 05:45:29.596   [WRN] Requested authentication complete with no token
+2024-11-27 05:45:29.596   [DBG] AuthenticationHandler.isAuthenticationCompleted()
+2024-11-27 05:45:33.316   [DBG] AuthenticationHandler.signInWithBrowser()
+2024-11-27 05:45:33.316   [DBG] AuthenticationHandler.createAuthenticationUrl()
+2024-11-27 05:45:33.317   [DBG] AuthenticationHandler.setWatchers()
+2024-11-27 05:45:33.317   [DBG] AuthenticationHandler.waitBrowserToken()
+2024-11-27 05:45:33.317   [DBG] AuthenticationHandler.isAuthenticationCompleted()
+2024-11-27 05:45:33.317   [DBG] AuthenticationHandler.wait2FA()
+2024-11-27 05:45:33.317   [DBG] AuthenticationHandler.isAuthenticationCompleted()
+2024-11-27 05:45:38.637   [DBG] DialogWindow.keyDownHandler()
+2024-11-27 05:45:43.701   [DBG] AppEventsService.focusWebContent()
+2024-11-27 05:45:43.701   [DBG] AuthenticationHandler.tryObtainTokenFromClipboard()
+2024-11-27 05:45:43.710   [DBG] AuthenticationHandler.acceptRedirectUrl()
+2024-11-27 05:45:43.710   [DBG] AuthenticationHandler.getTokenFromRedirectUrl()
+2024-11-27 05:45:43.711   [ERR] [AuthenticationHandler.getTokenFromRedirectUrl()] Invalid redirect url     tradingview
+
+2024-11-27 05:45:44.599   [DBG] DialogWindow.keyDownHandler()
+2024-11-27 05:45:44.962   [DBG] DialogWindow.keyDownHandler()
+2024-11-27 05:45:45.642   [DBG] DialogWindow.keyDownHandler()
+2024-11-27 05:45:46.231   [DBG] DialogWindow.keyDownHandler()
+2024-11-27 05:46:15.26    [DBG] AppEventsService.focusWebContent()
+2024-11-27 05:46:15.27    [DBG] AuthenticationHandler.tryObtainTokenFromClipboard()
+2024-11-27 05:46:15.55    [DBG] AuthenticationHandler.acceptRedirectUrl()
+2024-11-27 05:46:15.55    [DBG] AuthenticationHandler.getTokenFromRedirectUrl()
+2024-11-27 05:46:15.55    [DBG] AuthenticationHandler.completeAuthentication()
+2024-11-27 05:46:15.57    [DBG] AuthenticationHandler.isAuthenticationCompleted()
+2024-11-27 05:46:16.38    [DBG] AuthenticationHandler.getAuthResponseData()
+2024-11-27 05:46:16.39    [DBG] AuthenticationHandler.shouldEnter2FA()
+2024-11-27 05:46:16.39    [DBG] AuthenticationHandler.isAuthenticationCompleted()
+2024-11-27 05:46:16.39    [DBG] AuthenticationHandler.disposeWelcomeDialog()
+2024-11-27 05:46:16.39    [DBG] [7f031c16] DialogWindow.closeDialogWindow()
+2024-11-27 05:46:16.40    [DBG] [7f031c16] BaseWindow.processClose()
+2024-11-27 05:46:16.40    [DBG] WindowService.mayClose()
+2024-11-27 05:46:16.40    [DBG] [7f031c16] BaseWindow.willCloseWindow()
+2024-11-27 05:46:16.40    [DBG] [7f031c16] BaseWindow.dispose()
+2024-11-27 05:46:16.44    [DBG] AuthenticationHandler.disposeWelcomeDialog()
+2024-11-27 05:46:16.52    [DBG] AppEventsService.focusWebContent()
+2024-11-27 05:46:16.54    [DBG] AppEventsService.focusWebContent()
+2024-11-27 05:46:16.564   [INF] Will sign in user: 'uSs3ewa', id: '89265016'
+2024-11-27 05:46:17.189   [INF] Locale info. locale: 'en', host: 'https://www.tradingview.com/'
+2024-11-27 05:46:17.189   [DBG] MainMenuService.buildAppMenu()
+2024-11-27 05:46:17.191   [DBG] MainMenuService.makeThemesMenu()
+2024-11-27 05:46:17.191   [DBG] mn.availableThemes()
+2024-11-27 05:46:17.192   [DBG] UserService.notifyUserSignedIn()
+2024-11-27 05:46:17.193   [DBG] PersistenceService.checkUserStorageExistence()
+2024-11-27 05:46:17.193   [INF] Restore user app state from '/home/stoat/.config/TradingView/TVUserStorage/id-89265016/settings.json'
+2024-11-27 05:46:17.193   [DBG] PersistenceService.restore()
+2024-11-27 05:46:17.193   [DBG] FileBasedStorage.restore()
+2024-11-27 05:46:17.194   [DBG] MainMenuService.buildAppMenu()
+2024-11-27 05:46:17.195   [DBG] MainMenuService.makeThemesMenu()
+2024-11-27 05:46:17.195   [DBG] TrackEventService.setUserData()
+2024-11-27 05:46:17.195   [DBG] PersistentArrayProxy.internalExtractState()
+2024-11-27 05:46:17.195   [DBG] LinkingService.internalExtractState()
+2024-11-27 05:46:17.196   [DBG] TrackEventService.setAppWindowsData()
+2024-11-27 05:46:17.196   [DBG] WindowService.mergeAnonymousSession()
+2024-11-27 05:46:17.196   [DBG] WindowService.disposeDefaultWindow()
+2024-11-27 05:46:17.197   [DBG] [57597c05] TabbedWindowBase.dispose()
+2024-11-27 05:46:17.197   [DBG] [57597c05] s.notifyListeners()
+2024-11-27 05:46:17.197   [DBG] MainMenuService.buildAppMenu()
+2024-11-27 05:46:17.198   [DBG] MainMenuService.makeThemesMenu()
+2024-11-27 05:46:17.198   [DBG] mn.availableThemes()
+2024-11-27 05:46:17.201   [DBG] mn.availableThemes()
+2024-11-27 05:46:17.201   [DBG] [5:46:17]-[5:46:17]: 'Restore user session' (8) ms
+2024-11-27 05:46:17.201   [DBG] TrackEventService.trackStartApp()
+2024-11-27 05:46:17.206   [DBG] NativeDragService.unregister(): "Will unregister: 591dd7df"
+2024-11-27 05:46:17.206   [DBG] [57597c05] TabbedWindowBase.disposeTabs()
+2024-11-27 05:46:17.207   [DBG] [5f65ceb4] Tab.dispose()
+2024-11-27 05:46:17.207   [DBG] [5f65ceb4] Tab.invalidateController()
+2024-11-27 05:46:17.208   [DBG] NativeDragService.unregister(): "Will unregister: 5f65ceb4"
+2024-11-27 05:46:17.210   [DBG] TabComponent.componentWillUnmount(): "Unmounting 5f65ceb4"
+2024-11-27 05:46:17.257   [DBG] Tab id: 65cff3f0 did-navigate (k)
+2024-11-27 05:46:17.257   [DBG] Navigate (about:blank) with NON-OK response code: -1
+2024-11-27 05:46:17.271   [DBG] Tab id: 65cff3f0 dom-ready
+2024-11-27 05:46:17.272   [DBG] LinkingService.unlink()
+2024-11-27 05:46:17.272   [DBG] [57597c05] TabbedWindowBase.dispose()
+2024-11-27 05:46:17.272   [DBG] [57597c05] BaseWindow.dispose()
+2024-11-27 05:46:17.276   [DBG] WindowService.spawnDefaultWindow()
+2024-11-27 05:46:17.276   [DBG] Will create empty window
+2024-11-27 05:46:17.287   [DBG] BaseWindow.addDisposable()
+2024-11-27 05:46:17.287   [DBG] BaseWindow.applyWindowTheme()
+2024-11-27 05:46:17.287   [DBG] mn.applyTheme()
+2024-11-27 05:46:17.287   [DBG] BaseWindow.addDisposable()
+2024-11-27 05:46:17.288   [INF] Created base window, tweaking current window
+2024-11-27 05:46:17.288   [DBG] [ca3d7ef6] BaseWindow.addDisposable()
+2024-11-27 05:46:17.288   [DBG] [ca3d7ef6] BaseWindow.addDisposable()
+2024-11-27 05:46:17.319   [DBG] [ca3d7ef6] TabbedWindowBase.addTab()
+2024-11-27 05:46:17.319   [DBG] [ca3d7ef6] BaseWindow.load()
+2024-11-27 05:46:17.330   [DBG] [ca3d7ef6] BaseWindow.createAppAwaiter()
+2024-11-27 05:46:17.697   [DBG] mn.applyTheme()
+2024-11-27 05:46:17.713   [DBG] [5:46:17]-[5:46:17]: 'BaseWindow: loading window page, url: '/app/window/index.html'' (394) ms
+2024-11-27 05:46:17.716   [DBG] [Renderer] initializeIpcProxyForInstance windowControl id: ca3d7ef6-tvd:tabbed-window-control; Old id undefined
+2024-11-27 05:46:17.739   [DBG] [ca3d7ef6] TabbedWindowBase.getWindowStateAsync()
+2024-11-27 05:46:17.754   [DBG] App.componentDidMount()
+2024-11-27 05:46:17.754   [DBG] App.tokyoNightInitialize()
+2024-11-27 05:46:17.755   [DBG] App.setParentId()
+2024-11-27 05:46:17.755   [DBG] [Renderer] initializeIpcProxyForInstance windowControl id: ca3d7ef6-tvd:tabbed-window-control; Old id undefined
+2024-11-27 05:46:17.756   [DBG] App.setParentId(): "Registered window id: l"
+2024-11-27 05:46:17.756   [DBG] <App>.componentDidMount(): "Will update window state: 3"
+2024-11-27 05:46:17.759   [INF] Window finished load id: 'ca3d7ef6'
+2024-11-27 05:46:17.759   [DBG] [ca3d7ef6] TabbedWindowBase.notifyTabsChanged()
+2024-11-27 05:46:17.759   [DBG] [ca3d7ef6] TabbedWindowBase.updateTabsContainer()
+2024-11-27 05:46:17.759   [DBG] [ca3d7ef6] BaseWindow.show()
+2024-11-27 05:46:17.760   [INF] Window page loaded, url: '/app/window/index.html'
+2024-11-27 05:46:17.764   [DBG] TabbedWindowBase.findTabById(tabId: e79b7c8b)
+2024-11-27 05:46:17.764   [DBG] TabbedWindowBase.findTabById(tabId: e79b7c8b)
+2024-11-27 05:46:17.764   [DBG] [e79b7c8b] Tab.setupViewEvents()
+2024-11-27 05:46:17.764   [INF] Create tab url: 'https://www.tradingview.com/chart/', id: 'e79b7c8b'
+2024-11-27 05:46:17.764   [DBG] [e79b7c8b] TvTab.setupTvViewEvents()
+2024-11-27 05:46:17.764   [DBG] [ca3d7ef6] TabbedWindowBase.setActiveTab()
+2024-11-27 05:46:17.764   [DBG] [ca3d7ef6] TabbedWindowBase.notifyTabsChanged()
+2024-11-27 05:46:17.764   [DBG] [ca3d7ef6] TabbedWindowBase.updateTabsContainer()
+2024-11-27 05:46:17.764   [DBG] [ca3d7ef6] TabbedWindowBase.setWindowLoading()
+2024-11-27 05:46:17.765   [DBG] [ca3d7ef6] TabbedWindowBase.setActiveTabView()
+2024-11-27 05:46:17.765   [DBG] [ca3d7ef6] TabbedWindowBase.setWindowLoading()
+2024-11-27 05:46:17.765   [DBG] [ca3d7ef6] TabbedWindowBase.handleTabLoading()
+2024-11-27 05:46:17.765   [DBG] [ca3d7ef6] TabbedWindowBase.setWindowLoading()
+2024-11-27 05:46:17.765   [DBG] [ca3d7ef6] TabbedWindowBase.setWindowLoading()
+2024-11-27 05:46:17.765   [DBG] [ca3d7ef6] TabbedWindowBase.notifyTabsChanged()
+2024-11-27 05:46:17.765   [DBG] [ca3d7ef6] TabbedWindowBase.updateTabsContainer()
+2024-11-27 05:46:17.766   [DBG] [e79b7c8b] Tab.load()
+2024-11-27 05:46:17.766   [DBG] TaskQueueImpl.startTask()
+2024-11-27 05:46:17.766   [DBG] [ca3d7ef6] TabbedWindowBase.setWindowLoading()
+2024-11-27 05:46:17.766   [DBG] WindowService.prerenderView()
+2024-11-27 05:46:17.768   [DBG] [e79b7c8b] Tab.setViewData()
+2024-11-27 05:46:17.768   [DBG] Tab id: e79b7c8b, loading url: https://www.tradingview.com/chart/
+2024-11-27 05:46:17.776   [DBG] TabPanel.render(): "Tabs panel registered"
+2024-11-27 05:46:17.776   [DBG] <App>.componentDidMount(): "App sends ready event"
+2024-11-27 05:46:17.782   [DBG] [368c3618] TabPanel.updateTabs()
+2024-11-27 05:46:17.784   [DBG] [368c3618] TabPanel.updateTabs()
+2024-11-27 05:46:17.786   [DBG] [368c3618] TabPanel.updateTabs()
+2024-11-27 05:46:17.788   [DBG] App.initialize()
+2024-11-27 05:46:17.789   [DBG] App.subscribeOnWindowEvents()
+2024-11-27 05:46:17.790   [DBG] AppEventsService.focusWebContent()
+2024-11-27 05:46:17.799   [DBG] [ca3d7ef6] TabbedWindowBase.registerTabController()
+2024-11-27 05:46:17.799   [INF] TabbedWindowBase.registerTabController(tabId: e79b7c8b-f8d1-4107-9837-987c5de93727, from window id: c6b0b80a-tvd:tab)
+2024-11-27 05:46:17.799   [DBG] [c6b0b80a] Tab.setController()
+2024-11-27 05:46:17.811   [DBG] TabComponent.componentDidMount(): "registered controller for tab c6b0b80a"
+2024-11-27 05:46:17.829   [DBG] NativeDragService.registerDraggable()
+2024-11-27 05:46:17.830   [DBG] WindowService.findWindowAsync()
+2024-11-27 05:46:17.834   [DBG] TabComponent.componentDidMount(): "registered draggable with id c6b0b80a"
+2024-11-27 05:46:17.834   [DBG] [ca3d7ef6] TabbedWindowBase.registerTabPanel()
+2024-11-27 05:46:17.835   [DBG] NativeDragService.registerDroppable()
+2024-11-27 05:46:17.836   [DBG] WindowService.findWindowAsync()
+2024-11-27 05:46:17.838   [DBG] TabPanel.componentDidMount(): "Registered droppable with id: 368c3618"
+2024-11-27 05:46:18.139   [DBG] Tab id: e79b7c8b did-navigate (https://www.tradingview.com/chart/)
+2024-11-27 05:46:18.188   [DBG] Tab id: e79b7c8b page-title-updated
+2024-11-27 05:46:18.868   [DBG] Tab id: e79b7c8b dom-ready
+2024-11-27 05:46:18.868   [DBG] WindowService.zoom()
+2024-11-27 05:46:18.868   [DBG] ZoomController.setZoomValue()
+2024-11-27 05:46:18.868   [DBG] WindowService.getChartWindows()
+2024-11-27 05:46:18.868   [DBG] MainMenuService.buildAppMenu()
+2024-11-27 05:46:18.868   [DBG] MainMenuService.makeThemesMenu()
+2024-11-27 05:46:18.869   [DBG] mn.availableThemes()
+2024-11-27 05:46:19.465   [DBG] [ca3d7ef6] TabbedWindowBase.findTabByWebContents()
+2024-11-27 05:46:19.496   [DBG] [ca3d7ef6] TabbedWindowBase.findTabByWebContents()
+2024-11-27 05:46:20.226   [DBG] [ca3d7ef6] TabbedWindowBase.setWindowLoading()
+2024-11-27 05:46:20.226   [DBG] [ca3d7ef6] TabbedWindowBase.setActiveTabView()
+2024-11-27 05:46:20.227   [DBG] [ca3d7ef6] TabbedWindowBase.setWindowLoading()
+2024-11-27 05:46:20.227   [DBG] [ca3d7ef6] TabbedWindowBase.setWindowLoading()
+2024-11-27 05:46:20.228   [DBG] PersistenceService.checkUserStorageExistence()
+2024-11-27 05:46:20.228   [DBG] [ca3d7ef6] TabbedWindowBase.reloadTab()
+2024-11-27 05:46:20.228   [DBG] [c6b0b80a] Tab.reloadWithLocaleAwareness()
+2024-11-27 05:46:20.229   [DBG] s.notifyListeners()
+2024-11-27 05:46:20.229   [DBG] [5:46:20]: 'Session restored' (95861) ms
+2024-11-27 05:46:20.229   [DBG] UserService.showAppOnboardingDialog()
+2024-11-27 05:46:20.229   [DBG] AuthenticationHandler.showWelcomeDialog()
+2024-11-27 05:46:20.230   [DBG] R.createDialogWindow()
+2024-11-27 05:46:20.234   [DBG] BaseWindow.addDisposable()
+2024-11-27 05:46:20.234   [DBG] BaseWindow.applyWindowTheme()
+2024-11-27 05:46:20.234   [DBG] mn.applyTheme()
+2024-11-27 05:46:20.234   [DBG] BaseWindow.addDisposable()
+2024-11-27 05:46:20.234   [DBG] Dialog registered 52fb4841
+2024-11-27 05:46:20.235   [DBG] [52fb4841] BaseWindow.load()
+2024-11-27 05:46:20.243   [DBG] [52fb4841] BaseWindow.createAppAwaiter()
+2024-11-27 05:46:20.302   [DBG] [ca3d7ef6] TabbedWindowBase.findTabByWebContents()
+2024-11-27 05:46:20.371   [DBG] Platform requested get-theme
+2024-11-27 05:46:20.436   [DBG] [ca3d7ef6] TabbedWindowBase.findTabByWebContents()
+2024-11-27 05:46:20.437   [DBG] [5:46:20]-[5:46:20]: 'BaseWindow: loading window page, url: '/app/dialog-window/index.html'' (202) ms
+2024-11-27 05:46:20.446   [INF] Window page loaded, url: '/app/dialog-window/index.html'
+2024-11-27 05:46:20.447   [DBG] [52fb4841] BaseWindow.show()
+2024-11-27 05:46:20.451   [DBG] [52fb4841] BaseWindow.moveTop()
+2024-11-27 05:46:20.451   [INF] [DialogWindow]: dialog without title showed
+2024-11-27 05:46:20.451   [DBG] [52fb4841] BaseWindow.show()
+2024-11-27 05:46:20.451   [DBG] [52fb4841] DialogWindow.waitInput()
+2024-11-27 05:46:20.689   [DBG] AppEventsService.focusWebContent()
+2024-11-27 05:46:20.851   [DBG] [ca3d7ef6] TabbedWindowBase.findTabByWebContents()
+2024-11-27 05:46:20.921   [DBG] [ca3d7ef6] TabbedWindowBase.findTabByWebContents()
+2024-11-27 05:46:39.804   [DBG] [52fb4841] BaseWindow.close()
+2024-11-27 05:46:39.804   [DBG] [52fb4841] BaseWindow.processClose()
+2024-11-27 05:46:39.804   [DBG] WindowService.mayClose()
+2024-11-27 05:46:39.804   [DBG] [52fb4841] BaseWindow.willCloseWindow()
+2024-11-27 05:46:39.805   [DBG] AuthenticationHandler.disposeWelcomeDialog()
+2024-11-27 05:46:39.805   [DBG] [52fb4841] DialogWindow.closeDialogWindow()
+2024-11-27 05:46:39.806   [DBG] [52fb4841] BaseWindow.dispose()
+2024-11-27 05:46:39.809   [DBG] [Renderer] initializeIpcProxyForInstance dialogControl id: 52fb4841-tvd:dialog; Old id undefined
+2024-11-27 05:46:39.819   [DBG] AppEventsService.focusWebContent()
+2024-11-27 05:46:39.822   [DBG] AppEventsService.focusWebContent()
+2024-11-27 05:46:47.164   [DBG] R.createDialogWindow()
+2024-11-27 05:46:47.172   [DBG] BaseWindow.addDisposable()
+2024-11-27 05:46:47.172   [DBG] BaseWindow.applyWindowTheme()
+2024-11-27 05:46:47.172   [DBG] mn.applyTheme()
+2024-11-27 05:46:47.172   [DBG] BaseWindow.addDisposable()
+2024-11-27 05:46:47.172   [DBG] Dialog registered 5aa15b46
+2024-11-27 05:46:47.172   [DBG] [5aa15b46] BaseWindow.load()
+2024-11-27 05:46:47.186   [DBG] [5aa15b46] BaseWindow.createAppAwaiter()
+2024-11-27 05:46:47.430   [DBG] Platform requested get-theme
+2024-11-27 05:46:47.566   [DBG] [5:46:47]-[5:46:47]: 'BaseWindow: loading window page, url: '/app/dialog-window/index.html'' (394) ms
+2024-11-27 05:46:47.580   [INF] Window page loaded, url: '/app/dialog-window/index.html'
+2024-11-27 05:46:47.581   [DBG] [5aa15b46] BaseWindow.show()
+2024-11-27 05:46:47.583   [DBG] [5aa15b46] BaseWindow.moveTop()
+2024-11-27 05:46:47.583   [INF] [DialogWindow]: dialog without title showed
+2024-11-27 05:46:47.659   [DBG] mn.availableThemes()
+2024-11-27 05:46:47.681   [DBG] mn.availableThemes()
+2024-11-27 05:46:47.800   [DBG] AppEventsService.focusWebContent()
+2024-11-27 05:46:49.120   [DBG] SettingsDialog.handleDialogClick()
+2024-11-27 05:46:50.210   [INF] Check permission (media) on (/app/dialog-window/index.html)
+2024-11-27 05:46:50.211   [INF] Check permission (media) on (/app/dialog-window/index.html)
+2024-11-27 05:46:50.211   [INF] Check permission (media) on (/app/dialog-window/index.html)
+2024-11-27 05:46:50.211   [INF] Check permission (media) on (/app/dialog-window/index.html)
+2024-11-27 05:46:50.227   [DBG] SettingsDialog.handleDialogClick()
+2024-11-27 05:46:50.228   [DBG] <VideoSettings>: Initialized
+2024-11-27 05:46:50.228   [DBG] <AudioSettings>: Initialized
+2024-11-27 05:46:50.393   [INF] Check permission (media) on (/app/dialog-window/index.html)
+2024-11-27 05:46:50.393   [INF] Check permission (media) on (/app/dialog-window/index.html)
+2024-11-27 05:46:50.394   [INF] Check permission (media) on (/app/dialog-window/index.html)
+2024-11-27 05:46:50.394   [INF] Check permission (media) on (/app/dialog-window/index.html)
+2024-11-27 05:46:50.394   [DBG] <VideoSettings>: Initialized
+2024-11-27 05:46:50.401   [INF] Requesting media access (video)
+2024-11-27 05:46:50.401   [INF] Allow media access automatically, becuase this is not SNAP context
+2024-11-27 05:46:50.401   [INF] Check permission (media) on (/app/dialog-window/index.html)
+2024-11-27 05:46:50.446   [INF] Check permission (media) on (/app/dialog-window/index.html)
+2024-11-27 05:46:50.446   [INF] Check permission (media) on (/app/dialog-window/index.html)
+2024-11-27 05:46:50.446   [DBG] <AudioSettings>: Initialized
+2024-11-27 05:46:50.456   [INF] Check permission (media) on (/app/dialog-window/index.html)
+2024-11-27 05:46:50.659   [INF] Requesting media access (audio)
+2024-11-27 05:46:50.659   [INF] Allow media access automatically, becuase this is not SNAP context
+2024-11-27 05:46:50.672   [INF] Check permission (media) on (/app/dialog-window/index.html)
+2024-11-27 05:46:50.709   [INF] Check permission (media) on (/app/dialog-window/index.html)
+2024-11-27 05:46:50.718   [INF] Check permission (media) on (/app/dialog-window/index.html)
+2024-11-27 05:46:50.822   [INF] Check permission (media) on (/app/dialog-window/index.html)
+2024-11-27 05:46:50.852   [INF] Requesting media access (audio)
+2024-11-27 05:46:50.852   [INF] Allow media access automatically, becuase this is not SNAP context
+2024-11-27 05:46:50.853   [INF] Check permission (media) on (/app/dialog-window/index.html)
+2024-11-27 05:46:57.797   [DBG] ComboboxComponent.toggleDropdown()
+2024-11-27 05:46:57.798   [DBG] SettingsDialog.handleDialogClick()
+2024-11-27 05:46:58.440   [DBG] ComboboxComponent.toggleDropdown()
+2024-11-27 05:46:58.441   [DBG] SettingsDialog.handleDialogClick()
+2024-11-27 05:46:59.317   [DBG] ComboboxComponent.toggleDropdown()
+2024-11-27 05:46:59.318   [DBG] SettingsDialog.handleDialogClick()
+2024-11-27 05:47:02.279   [DBG] ComboboxComponent.onDropdownItemClick()
+2024-11-27 05:47:02.280   [INF] Selected audio device "HD-Audio Generic, SN6140 Analog-Front output / input"
+2024-11-27 05:47:02.370   [INF] Requesting media access (audio)
+2024-11-27 05:47:02.370   [INF] Allow media access automatically, becuase this is not SNAP context
+2024-11-27 05:47:02.383   [INF] Check permission (media) on (/app/dialog-window/index.html)
+2024-11-27 05:47:02.386   [ERR] <AudioSettings>.onAudioSourceChange: Microphone id e289ea3ab5c1172876b36018eb7fa0a76b3a587cf7503a6576f8e2c4fda4560d label HD-Audio Generic, SN6140 Analog-Front output / input could not be obtained
+2024-11-27 05:47:02.387   [ERR] <AudioSettings>.onAudioSourceChange(): Could not find device with id e289ea3ab5c1172876b36018eb7fa0a76b3a587cf7503a6576f8e2c4fda4560d label HD-Audio Generic, SN6140 Analog-Front output / input
+2024-11-27 05:47:03.184   [DBG] ComboboxComponent.toggleDropdown()
+2024-11-27 05:47:03.185   [DBG] SettingsDialog.handleDialogClick()
+2024-11-27 05:47:08.218   [DBG] ComboboxComponent.onDropdownItemClick()
+2024-11-27 05:47:08.219   [INF] Selected audio device "HD-Audio Generic, SN6140 Analog-Default Audio Device"
+2024-11-27 05:47:08.314   [INF] Requesting media access (audio)
+2024-11-27 05:47:08.314   [INF] Allow media access automatically, becuase this is not SNAP context
+2024-11-27 05:47:08.315   [INF] Check permission (media) on (/app/dialog-window/index.html)
+2024-11-27 05:47:09.38    [DBG] ComboboxComponent.toggleDropdown()
+2024-11-27 05:47:09.39    [DBG] SettingsDialog.handleDialogClick()
+2024-11-27 05:47:10.938   [DBG] SettingsDialog.handleDialogClick()
+2024-11-27 05:47:12.310   [DBG] SettingsDialog.handleDialogClick()
+2024-11-27 05:47:13.345   [DBG] SettingsDialog.handleDialogClick()
+2024-11-27 05:47:16.888   [DBG] UseBrowserApiService.createBrowserApiProviderWindow()
+2024-11-27 05:47:16.889   [DBG] r.createRendererWorkerWindow()
+2024-11-27 05:47:16.896   [DBG] BaseWindow.addDisposable()
+2024-11-27 05:47:16.896   [DBG] BaseWindow.applyWindowTheme()
+2024-11-27 05:47:16.896   [DBG] mn.applyTheme()
+2024-11-27 05:47:16.896   [DBG] BaseWindow.addDisposable()
+2024-11-27 05:47:16.896   [DBG] BaseWindow.load()
+2024-11-27 05:47:16.905   [DBG] BaseWindow.createAppAwaiter()
+2024-11-27 05:47:16.906   [DBG] BaseWindow.createAppAwaiter()
+2024-11-27 05:47:16.909   [DBG] SettingsDialog.handleDialogClick()
+2024-11-27 05:47:16.911   [DBG] UseBrowserApiService.playSound()
+2024-11-27 05:47:17.230   [DBG] [5:47:16]-[5:47:17]: 'BaseWindow: loading window page, url: '/app/browser-api-provider/index.html'' (334) ms
+2024-11-27 05:47:17.237   [INF] Window page loaded, url: '/app/browser-api-provider/index.html'
+2024-11-27 05:47:22.97    [DBG] UseBrowserApiService.playSound()
+2024-11-27 05:47:22.98    [DBG] SettingsDialog.handleDialogClick()
+2024-11-27 05:47:23.561   [DBG] SettingsDialog.handleDialogClick()
+2024-11-27 05:47:29.189   [DBG] SettingsDialog.handleDialogClick()
+2024-11-27 05:47:29.190   [DBG] mn.availableThemes()
+2024-11-27 05:47:29.193   [DBG] mn.availableThemes()

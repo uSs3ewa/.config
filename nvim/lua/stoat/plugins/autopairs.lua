@@ -1,6 +1,6 @@
 return {
-	"windwp/nvim-autopairs", -- 'altermo/ultimate-autopair.nvim',
-	event = { "InsertEnter" }, -- event={'InsertEnter','CmdlineEnter'},
+	"windwp/nvim-autopairs",
+	event = { "InsertEnter" },
 	dependencies = {
 		"hrsh7th/nvim-cmp",
 	},
@@ -13,7 +13,8 @@ return {
 			check_ts = true, -- enable treesitter
 			ts_config = {
 				lua = { "string" }, -- don't add pairs in lua string treesitter nodes
-				java = true, -- check treesitter on java
+				javascript = { "template_string" }, -- don't add pairs in javscript template_string treesitter nodes
+				java = false, -- don't check treesitter on java
 			},
 		})
 

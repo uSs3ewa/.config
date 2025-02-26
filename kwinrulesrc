@@ -1,0 +1,27 @@
+[1]
+Description=Application settings for quartus
+clientmachine=localhost
+wmclass=quartus
+wmclasscomplete=true
+wmclassmatch=1
+
+[530fc955-e7a1-4e6f-b388-c2eece508a27]
+Description=Window settings for quartus
+clientmachine=localhost
+title=Quartus Prime Lite Edition - /home/stoat/quartus/DemoC4 - DemoC4
+titlematch=1
+types=1
+wmclass=quartus
+wmclassmatch=1
+
+[General]
+count=1
+rules=1
+
+[a166b345-ced7-481e-b655-68b032f9ea48]
+Description=Application settings for quartus
+clientmachine=localhost
+screen=4
+screenrule=3
+wmclass=quartus
+wmclassmatch=1

@@ -157,12 +157,12 @@ end
 # This includes a `read` prompt, hence the fish_read event.
 # This handler removes itself after it is first called.
 #
-function __fish_on_interactive --on-event fish_prompt --on-event fish_read
+#function __fish_on_interactive --on-event fish_prompt --on-event fish_read
     # We erase this *first* so it can't be called again,
     # e.g. if fish_greeting calls "read".
-    functions -e __fish_on_interactive
-    __fish_config_interactive
-end
+#    functions -e __fish_on_interactive
+#    __fish_config_interactive
+#end
 
 # Set the locale if it isn't explicitly set. Allowing the lack of locale env vars to imply the
 # C/POSIX locale causes too many problems. Do this before reading the snippets because they might be
@@ -285,3 +285,10 @@ end
 set fish_greeting
 #fastfetch
 zoxide init --cmd cd fish | source
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+eval (~/miniconda3/bin/conda shell.fish hook)
+# <<< conda initialize <<<
+
+set -x NIX_PATH nixos-config /home/stoat/.dotfiles/configuration.nix

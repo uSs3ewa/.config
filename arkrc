@@ -1,0 +1,14 @@
+[ExtractDialog]
+1600x1000 screen: Window-Maximized=true
+DirHistory[$e]=$HOME/Downloads/,$HOME/Downloads/обучение/
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+
+[Viewer]
+ToolBarsMovable=Disabled

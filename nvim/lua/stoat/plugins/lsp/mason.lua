@@ -36,7 +36,7 @@ return {
 				"lua_ls",
 				"jdtls",
 				"ltex",
-				"clangd",
+				"pyright",
 			},
 		})
 
@@ -44,13 +44,12 @@ return {
 			ensure_installed = {
 				"prettier", -- prettier formatter
 				"stylua", -- lua formatter
-				"clang-format",
 				"java-debug-adapter",
 				"java-test",
-				"cpplint",
 				"checkstyle",
 				"black",
 				"isort",
+				"pylint",
 			},
 		})
 	end,

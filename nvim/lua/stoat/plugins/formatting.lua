@@ -10,9 +10,6 @@ return {
 				html = { "prettier" },
 				markdown = { "prettier" },
 				lua = { "stylua" },
-				cpp = { "clang-format" },
-				c = { "clang-format" },
-				java = { "clang-format" },
 				python = { "isort", "black" },
 			},
 			format_on_save = {
