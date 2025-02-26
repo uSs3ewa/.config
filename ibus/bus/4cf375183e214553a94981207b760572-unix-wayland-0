@@ -1,7 +1,0 @@
-# This file is created by ibus-daemon, please do not modify it.
-# This file allows processes on the machine to find the
-# ibus session bus with the below address.
-# If the IBUS_ADDRESS environment variable is set, it will
-# be used rather than this file.
-IBUS_ADDRESS=unix:path=/home/stoat/.cache/ibus/dbus-QmfEORAk,guid=7588e5c916c4259dce5ce15366f55827
-IBUS_DAEMON_PID=6962

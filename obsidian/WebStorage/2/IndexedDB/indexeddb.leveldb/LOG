@@ -1,7 +1,0 @@
-2025/02/10-02:49:04.923 922 Reusing MANIFEST /home/stoat/.config/obsidian/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2025/02/10-02:49:04.923 922 Recovering log #3
-2025/02/10-02:49:04.924 922 Reusing old log /home/stoat/.config/obsidian/WebStorage/2/IndexedDB/indexeddb.leveldb/000003.log 
-2025/02/10-02:49:08.605 775 Level-0 table #5: started
-2025/02/10-02:49:08.609 775 Level-0 table #5: 34787 bytes OK
-2025/02/10-02:49:08.613 775 Delete type=0 #3
-2025/02/10-02:49:08.615 775 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
