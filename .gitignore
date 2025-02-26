@@ -1,0 +1,41 @@
+# Ignore everything by default
+*
+
+# Allow tracking specific directories
+!wofi/
+!wlogout/
+!waybar/
+!tmux/
+!superfile/
+!ranger/
+!nvim/
+!mako/
+!hypr/
+!fish/
+!fontconfig/
+!fastfetch/
+!ferdium/
+!alacritty/
+
+# Additional useful configs to track
+!home-manager/
+!nixpkgs/
+!direnv/
+
+# Ignore specific files inside tracked directories (optional)
+wofi/cache/
+wofi/temp/
+ranger/plugins/
+nvim/.netrwhist
+
+# Ignore Python or compiled files (if you use scripts)
+*.pyc
+__pycache__/
+
+# Ignore systemd session files
+systemd/user/
+
+# Ignore system and user logs
+logs/
+*.log
+
